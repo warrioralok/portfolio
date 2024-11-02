@@ -96,10 +96,15 @@ header nav .left-side-menu {
 }
 
 header nav .left-side-menu a img {
-  width: 13rem;
+  width: auto;
   height: 5.5rem;
 }
-
+.icon-bar a.whatsapp i{
+	color:#fff;
+}
+.icon-bar a.whatsapp{
+	background:#008000;
+} 
 header nav .left-side-menu .sub-menu {
   height: inherit;
   display: flex;
