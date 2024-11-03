@@ -273,7 +273,7 @@ header .right-side-menu .sub-menu a li:hover {
   width: 45rem;
   z-index:9;
   font-family:cursive;
-  color:#008000;
+  color:#4B9CD3;
 }
 
 .main-hero-section a img {
@@ -546,7 +546,7 @@ footer {
 }
 
 footer img {
-  width: 13rem;
+  width: auto;
   height: 5.5rem;
 }
 
@@ -954,7 +954,10 @@ footer .footer-div-5 a {
   font-size: 14px;
   color: #888;
   margin-bottom: 10px;
-  font-family:math;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .responsibilities {
