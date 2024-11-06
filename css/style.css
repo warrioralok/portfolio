@@ -591,6 +591,7 @@ footer .footer-div-5 a {
   padding: 0.5rem;
   transition: all 0.5s linear;
   transform: translateX(-14.5rem);
+  font-family: math;
 }
 
 .icon-bar a:hover {
@@ -617,7 +618,7 @@ footer .footer-div-5 a {
 }
 
 .icon-bar .instagram {
-  background: #e4405f;
+  background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
 }
 
 .icon-bar .youtube {
@@ -965,7 +966,41 @@ footer .footer-div-5 a {
 .responsibilities {
   list-style-type: disc;
 }
-
+.fa-arrow-down{
+  position: fixed;
+  bottom: 100px;
+  right: 80px;
+  font-size: 30px;
+  animation: bouncing 1s infinite ease-in-out;
+  color: #4B9CD3;
+  font-weight: bold;
+}
+@keyframes bouncing {
+  0% {bottom: 120px;}
+  50% {bottom: 140px;}
+  100% {bottom: 120px;}
+}
+.resumeButton a{
+  color: #fff;
+  font-family: math;
+}
+.resumeButton{
+  position: fixed;
+  bottom: 60px;
+  right: 15px;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  background: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+  padding: 20px;
+  color: #fff;
+  font-family: math;
+  opacity: 0.9;
+  font-size: 14px;
+  /* text-decoration: underline; */
+  cursor: pointer;
+  font-family: math;
+}
 .responsibilities li {
   margin-bottom: 5px;
   font-size: 16px;
